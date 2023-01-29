@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it to 'Dane' as a string.
+// Then we check if the name is equal to Mary. It is not, so we do not
+// console.log 'Hi, Mary!'. Instead, we console.log 'How do you do?'.
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make the variable secret but do not assign it a value.
+// We make the variable code and assign it to number 123
+// Then we check the code to determine the value of secret.
+//Since code is equal to 123 and is not greater than 250, we will console.log secret and the output will be 'super'.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make the variable isStudent and set it to the boolean operator true. We make the variable age and set it to the number 34. We make the variable zip and set it to the number 55407.
+// We check to see if isStudent is equal to true and zip is greater than 8000. It isn't so we move on to check the next conditional.
+// We check to see if isStudent is equal to false or if age is less than 30. Neither of these conditionals are true so we move on to check the next.
+//Student is equal to true, so we console.log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,6 +130,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - colorOne should equal blue and colorTwo should equal red, as described.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -144,6 +145,7 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// FIX - || signifies or, not and. Instructions say and. Should change to &&
 let temp = 40;
 const time = 4;
 
@@ -157,6 +159,8 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+// FIX - conditional is checking if minAge is less than or equal to age. 
+//Instructions say check if age is greater than or equal to minAge. Should be age >= minAge
 let age = 21;
 const minAge = 21;
 
